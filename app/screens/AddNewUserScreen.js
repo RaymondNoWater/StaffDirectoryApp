@@ -14,7 +14,7 @@ function AddNewUserScreen({ navigation, route }) {
 
     updateJsonBin(newUserArray);
 
-    navigation.navigate("Home", { users: newUserArray });
+    navigation.navigate("Staff Directory", { users: newUserArray });
   }
 
   function formatUserObj(userData) {
